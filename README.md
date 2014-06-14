@@ -25,7 +25,7 @@ flexibility down the road. The following instructions are known right now:
 | qq          | Decrement the current cell's value |
 
 The important thing to notice is that Qq as a pair of characters are unused.
-These are reserved to add furthre functionality like being able to advance
+These are reserved to add further functionality like being able to advance
 through cells and implement looping constructs. I thought I had already done
 that, but looking at the code I guess not.
 
