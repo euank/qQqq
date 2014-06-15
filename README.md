@@ -9,7 +9,7 @@ As was written in my Linear Algebra textbook, *Introduction to Linear Algebra,
 4th ed*, "Stable computer codes use as many Qs as possible". The topic of
 discussion was QR factorization, but the statement was otherwise unqualified.
 
-As such, I decided tha to make the most stable computer program possible, only
+As such, I decided that to make the most stable computer program possible, only
 the characters 'q' and 'Q' should be used. Indeed, in qQqq using any other
 character is a syntax error!
 
