@@ -29,6 +29,11 @@ These are reserved to add further functionality like being able to advance
 through cells and implement looping constructs. I thought I had already done
 that, but looking at the code I guess not.
 
+Basically, Qq signals that the next characters will be significant as well so it
+needs to read more to figure out what it could be. One way to do this would be
+to encode it as Qq, and then the Q-encoded size of the significant characters
+followed by said characters. I might do that.
+
 ## Preprocessing
 
 For the interpreter to be as stable as possible, it was necessary to create a
